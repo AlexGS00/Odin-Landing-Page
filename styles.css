@@ -1,0 +1,51 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    margin:0px;
+    padding: 0px;
+}
+
+.hero-section{
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-section .title{
+    font-size: 48px;
+    color: #f8faf8;
+    font-weight: 900;
+}
+
+.logo{
+    font-size:24px ;
+    color: #f9faf8;
+}
+
+button{
+    background-color: #3882f6;
+}
+
+.subtitle{
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+}
+
+.quote-section{
+    color:#e5e7eb;
+}
+
+.quote{
+    font-size: 36px;
+    font-family: "light italic", serif;
+    color: #1f2937;
+}
+
+.cta-card{
+    background-color: #3882f6;
+}
