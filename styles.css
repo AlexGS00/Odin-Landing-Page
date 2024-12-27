@@ -71,10 +71,16 @@ body{
     justify-content: center;
     align-items: flex-start;
     gap: 30px;
+    margin-bottom: 60px;
 }
 
 .card{
     flex: 0 1 200px;
+}
+
+.card .subtext{
+    margin-top: 12px;
+    text-align:center;
 }
 
 .subtitle{
