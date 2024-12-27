@@ -68,24 +68,62 @@ button{
     flex: 0 1 auto;
 }
 
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.card{
+    flex: 0 1 200px;
+}
+
 .subtitle{
     font-size: 36px;
     color:#1f2937;
     font-weight: 900;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
 }
 
 .quote-section{
-    color:#e5e7eb;
+    background-color:#e5e7eb;
+    height: 500px;
+}
+
+.quote-wraping{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:700px;
+    height: 500px;
+    margin:0px auto;
 }
 
 .quote{
     font-size: 36px;
     font-family: "light italic", serif;
     color: #1f2937;
+    align-self: center;
+}
+
+.quote-wraping .author{
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 .cta-card{
     background-color: #3882f6;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border: #3882f6;
+    border-radius: 10px;
 }
 
 ol{
